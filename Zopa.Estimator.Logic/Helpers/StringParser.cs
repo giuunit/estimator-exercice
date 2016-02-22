@@ -34,18 +34,18 @@ namespace Zopa.Estimator.Logic.Helpers
                 return null;
             }
 
-            //we expect a float
+            //we expect a float between 0 and 1
             if (!float.TryParse(rateString, 
                 System.Globalization.NumberStyles.Number |
                 System.Globalization.NumberStyles.AllowDecimalPoint,
                 System.Globalization.CultureInfo.CreateSpecificCulture("en-GB"),
-                out rate))
+                out rate) || rate < 0 || rate > 1)
             {
                 return null;
             }
 
-            //we expect an integer
-            if (!int.TryParse(availableString, out available))
+            //we expect a positive integer
+            if (!int.TryParse(availableString, out available) || available < 0)
             {
                 return null;
             }
