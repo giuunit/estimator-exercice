@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zopa.Estimator.UI", "Zopa.Estimator.UI\Zopa.Estimator.UI.csproj", "{417D99F2-2205-4DFA-A26E-60B023EE273C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zopa.Estimator.Logic", "Zopa.Estimator.Logic\Zopa.Estimator.Logic.csproj", "{C4A52E1D-D6B1-4FBA-A3FD-0E242E0AA98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zopa.Estimator.Logic.Tests", "Zopa.Estimator.Logic.Tests\Zopa.Estimator.Logic.Tests.csproj", "{A2E955F7-06A5-42DC-83DE-4A562516FAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417D99F2-2205-4DFA-A26E-60B023EE273C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417D99F2-2205-4DFA-A26E-60B023EE273C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417D99F2-2205-4DFA-A26E-60B023EE273C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417D99F2-2205-4DFA-A26E-60B023EE273C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A52E1D-D6B1-4FBA-A3FD-0E242E0AA98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A52E1D-D6B1-4FBA-A3FD-0E242E0AA98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A52E1D-D6B1-4FBA-A3FD-0E242E0AA98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A52E1D-D6B1-4FBA-A3FD-0E242E0AA98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E955F7-06A5-42DC-83DE-4A562516FAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E955F7-06A5-42DC-83DE-4A562516FAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E955F7-06A5-42DC-83DE-4A562516FAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E955F7-06A5-42DC-83DE-4A562516FAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
